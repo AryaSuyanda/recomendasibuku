@@ -7,27 +7,32 @@ Perpustakaan Digital merupakan sebuah platform yang menyediakan akses dan pelaya
 
 Sistem rekomendasi yang diterapkan pada Perpustakaan Digital berguna untuk:
 
-Membantu pengunjung menemukan buku yang sesuai dan relevan berdasarkan buku yang pernah dibaca.
+- Membantu pengunjung menemukan buku yang sesuai dan relevan berdasarkan buku yang pernah dibaca.
 
-Mengoptimalkan penggunaan koleksi buku yang tersedia, sehingga buku-buku yang jarang dipinjam dapat lebih sering direkomendasikan.
+- Mengoptimalkan penggunaan koleksi buku yang tersedia, sehingga buku-buku yang jarang dipinjam dapat lebih sering direkomendasikan.
 
-Mengurangi kesulitan mencari buku secara manual dan meningkatkan kepuasan pengguna.
+- Mengurangi kesulitan mencari buku secara manual dan meningkatkan kepuasan pengguna.
 
 ## Business Understanding
 
 ### Problem Statements
 
-Bagaimana cara merekomendasikan buku yang disukai oleh pengguna dapat direkomendasikan juga ke pengguna lainnya ?
+- Pengunjung kesulitan menemukan buku yang sesuai dan relevan apabila buku yang dicari sedang dipinjam.
+
+- Pengunjung kesulitan menemukan buku lain yang sesuai selera apabila buku yang diinginkan tidak tersedia.
+
 
 ### Goals
 
-Membuat sistem rekomendasi yang akurat berdasarkan ratings dan aktivitas pengguna pada masa lalu
+- Mengoptimalkan proses menemukan buku yang relevan berdasarkan kesukaan dan sejarah baca pengunjung.
 
+- Mengimplementasikan sebuah recommender system untuk memberikan saran buku yang sesuai
+  
 ### Solution statements
 
-- Content Based Filtering adalah algoritma yang merekomendasikan item serupa dengan apa yang disukai pengguna, berdasarkan tindakan mereka sebelumnya atau umpan balik eksplisit.
+- Menggunakan pendekatan Content Based Filtering berdasarkan deskripsi, genre, dan penulis buku.
 
-Algoritma Content Based Filtering digunakan untuk merekemondesikan buku berdasarkan aktivitas pengguna pada masa lalu.
+- Menggunakan ukuran kesamaan (similarity) Cosine Similarity dan representasi TF-IDF.
 
 ## Data Understanding
 
@@ -129,3 +134,13 @@ hasil dari Top-N 5 dari buku yang saya rekomendasikan adalah sebagai berikut :
 | The Clown               | Fiction, German Literature, Classics           |
 
 Dari hasil rekomendasi di atas, diketahui bahwa The Emigrants termasuk ke dalam genre Fiction, German Literature, Historical Fiction. Dari 5 item yang direkomendasikan, 2 item memiliki genre yang sama (similar). Artinya, precision sistem kita sebesar 2/5 atau 40%.
+
+**References**
+- **Jurnal Matrik, Universitas Bumigora (Juli, 2021) - Content Based Filtering pada Perpustakaan Digital**
+
+- **Sciencedirect - Digital Library: An Overview and Future perspectives**
+
+- **Wikipedia - Perpustakaan Digital**
+
+
+
