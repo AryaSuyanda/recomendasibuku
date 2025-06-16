@@ -65,6 +65,8 @@ Berikut beberapa data preparation yang dilakukan :
 
 ### **Mengatasi Missing Value**
 
+![image](https://github.com/user-attachments/assets/a71c8d4c-a4b1-45d3-846c-adc246e16d5c)
+
 Pada fitur description terdapat sebanyak 77 missing value. Supaya tidak menimbulkan kesalahan, maka kita akan menghapus seluruh data kosong tersebut.
 
 ### **Membersihkan Data Genres**
@@ -87,9 +89,13 @@ Genres yang telah dibersihkan akan terlihat seperti berikut.
 
 ### **Mengecek Jumlah Buku**
 
+![image](https://github.com/user-attachments/assets/0bef6142-13f9-49c2-8709-15e5ca13a5a5)
+
 Setelah kita membersihkan data dari missing value dengan cara menghapus data yang kosong, maka jumlah buku akan berkurang dari jumlah awalnya. Jumlah awal buku pada data adalah 10000 buah, akan tetapi, setelah dilakukan pembersihan menjadi 9795 buah.
 
 ### **Mengubah Data book, author, dan genres menjadi list**
+
+![image](https://github.com/user-attachments/assets/effe163f-5baa-4764-b1ee-828e7f5f3c09)
 
 kita perlu melakukan konversi data series menjadi list. Dalam hal ini, kita menggunakan fungsi tolist() dari library numpy. Kemudian list data tersebut akan kita membuat dictionary untuk menentukan pasangan key-value pada data book, author, dan genres yang telah kita siapkan sebelumnya.
 
