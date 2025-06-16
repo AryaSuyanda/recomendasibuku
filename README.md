@@ -1,22 +1,17 @@
-# Laporan Proyek Machine Learning - Wahyu Krisna Aji
+# Laporan Proyek Machine Learning - Arya Suyanda
 
 ## Project Overview
 
-Perpustakaan Daerah Provinsi Kalimantan Selatan merupakan salah satu
-perpustakaan dan pusat penyedia layanan informasi yang ada di Kalimantan
-Selatan. Namun. selama ini pengunjung perpustakaan kesulitan dalam mencari
-buku yang berkaitan dengan buku yang dipilih sebelumnya dan juga dalam
-menemukan alternatif buku lain ketika buku yang diinginkan tersebut telah
-dipinjam. dengan adanya rekomendasi atau saran buku-buku lain yang
-berhubungan diharapkan membantu dalam mendapatkan buku yang sesuai dan
-diinginkan pengunjung perpustakaan. Pada penelitian ini penerapan sistem
-rekomendasi menggunakan metode Content Based Filtering dalam
-memberikan rekomendasi buku yang bekerja dengan melihat kemiripan item
-yang dianalisis dari fitur yang dikandungnya dengan Weighted Tree Similarity.
-Berdasarkan hasil pengujian yang telah dilakukan pada 5 skenario pengujian
-yang diujikan dihasilkan nilai precision sebesar 88%.
+Proyek ini termasuk ke dalam domain Perpustakaan Digital (Digital Library).
+Perpustakaan Digital merupakan sebuah platform yang menyediakan akses dan pelayanan informasi secara luas, tanpa dibatasi ruang dan waktu. Dalam era teknologi saat ini, Perpustakaan Digital menjadi penting demi memenuhi kebutuhan informasi masyarakat secara cepat, relevan, dan sesuai kebutuhan masing-masing.
 
-referensi dari proyek overview yang saya buat dapat dilihat dari tautan berikut : [Jurnal Manajemen, Teknik Informatika dan Rekayasa Komputer](https://journal.universitasbumigora.ac.id/index.php/matrik/article/download/617/587/)
+Sistem rekomendasi yang diterapkan pada Perpustakaan Digital berguna untuk:
+
+Membantu pengunjung menemukan buku yang sesuai dan relevan berdasarkan buku yang pernah dibaca.
+
+Mengoptimalkan penggunaan koleksi buku yang tersedia, sehingga buku-buku yang jarang dipinjam dapat lebih sering direkomendasikan.
+
+Mengurangi kesulitan mencari buku secara manual dan meningkatkan kepuasan pengguna.
 
 ## Business Understanding
 
